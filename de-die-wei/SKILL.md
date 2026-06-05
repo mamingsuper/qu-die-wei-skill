@@ -1,27 +1,27 @@
 ---
 name: de-die-wei
-description: Rewrite Chinese text to remove "爹味" by first detecting patronizing, preachy, boundary-crossing, controlling, superiority-driven, or low-empathy wording, then improving it into equal, restrained, empathetic communication. Use when the user asks to 去爹味, soften advice, reduce mansplaining-like tone, make feedback less preachy, or turn commands into respectful suggestions.
+description: 去除中文文本中的“爹味”。首先检测居高临下、说教、越界、控制欲、带有优越感或缺乏共情的措辞，然后将其改写为平等、克制、富有共情心的沟通方式。当用户要求“去爹味”、柔化建议、减少好为人师的语气、让反馈不再像说教，或将命令转为尊重的建议时使用。
 ---
 
 # 去爹味
 
-## Overview
+## 概览
 
-Use this skill to turn high-control, high-posture, unsolicited, or preachy Chinese communication into wording that respects boundaries and treats the reader as an adult with judgment.
+使用此技能将高控制欲、高姿态、主动说教的中文表达，转化为尊重边界、将读者视为有判断力的成年人的得体措辞。
 
-Always start with a 爹味 scan. If `../die-wei-detector/references/rubric.md` is available, use its five-dimension scoring framework. Then load `references/rewrite-playbook.md` for rewrite tactics.
+始终从“爹味”扫描开始。如果 `../die-wei-detector/references/rubric.md` 可用，请使用它的五维度评分框架。然后加载 `references/rewrite-playbook.md`（改写指南）获取改写策略。
 
-## Workflow
+## 工作流程
 
-1. Detect first. Score the text across posture, boundary, empathy, purpose, and result. Record the exact points that need changes.
-2. Rewrite second. Apply the smallest useful edits first: ask before advising, replace commands with options, turn absolute claims into experience-sharing, add empathy, and return agency to the reader.
-3. Preserve the user's intent, facts, and practical advice. Remove the hierarchy, not the useful content.
-4. Provide one clean rewritten version. If the original is complex, also provide line-by-line edits.
-5. Estimate the post-rewrite 爹味 score and explain what improved.
+1. **先检测**。对文本的姿态、边界、共情、目的和结果五个维度进行评分。记录需要修改的具体点。
+2. **后改写**。优先采用最小巧有效的修改：在提建议前先询问、将命令改为提供选项、将绝对的断言改为分享经验、增加共情，并将决定权还给读者。
+3. **保留用户的意图、事实和实用建议**。去除的是层级感，而不是有用的内容。
+4. **提供一个干净的改写版本**。如果原文很复杂，也要提供逐行修改对照。
+5. **预估改写后的“爹味”分数**，并解释改进了什么。
 
-## Required Output
+## 必须输出的格式
 
-Use this structure:
+请严格使用以下结构：
 
 ```markdown
 ## 先检测
@@ -53,17 +53,17 @@ Use this structure:
 改进说明：...
 ```
 
-## Rewrite Rules
+## 改写规则
 
-- Ask before advising: add "你想听建议，还是只是想聊聊？" or "需要我提供一些思路吗？" when advice was not requested.
-- Share instead of instructing: change "你应该" into "我之前试过...你可以看看是否适合你"。
-- Keep boundaries: remove comments on private life, body, clothing, marriage, spending, sleep, hobbies, or work style unless directly relevant and invited.
-- Empathize first: acknowledge the other person's feeling before offering analysis.
-- Lower posture: use uncertainty honestly, not as a fake humble prefix before a command.
-- Leave agency: end with options, tradeoffs, or an invitation, not a verdict.
+- **先问后建议**：在没有被主动要求给建议时，加上“你想听建议，还是只是想聊聊？”或“需要我提供一些思路吗？”。
+- **分享而不是指导**：把“你应该”改成“我之前试过...你可以看看是否适合你”。
+- **保持边界感**：除非对方主动提起或直接相关，否则不要评论私生活、身体、穿着、婚姻、消费、睡眠、爱好或工作方式。
+- **先共情**：在提供分析之前，先理解并认可对方的感受。
+- **放低姿态**：真诚地表达不确定性，而不是在命令前加上虚假的谦虚前缀。
+- **留有余地**：以提供选项、权衡利弊或发出邀请来结尾，而不是下一个定论。
 
-## Guardrails
+## 注意事项
 
-- Do not make the rewrite bland or corporate by default. Keep the user's voice where possible.
-- Do not erase necessary feedback. Directness is fine when it is requested, specific, and respectful.
-- Do not add fake intimacy, flattery, or excessive apologies.
+- 默认情况下，不要把改写弄得平淡无味或像官方通稿。尽可能保留用户的个人风格。
+- 不要删去必要的反馈。如果对方需要，并且表达具体且尊重，直接指出问题是可以的。
+- 不要添加虚假的亲昵、阿谀奉承或过度的道歉。

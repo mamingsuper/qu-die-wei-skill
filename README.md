@@ -1,18 +1,18 @@
 # qu-die-wei-skill
 
-两个中文 Codex Skill，用来检测和改写表达里的“爹味”。
+两个中文 Agent Skill，用来检测和改写表达里的“爹味”。
 
-## Skills
+## Skills (技能)
 
 - `die-wei-detector`：按五个维度给中文文本打 `0-100` 爹味分，并输出依据。
 - `de-die-wei`：先检测爹味问题，再逐点改写成更平等、克制、共情的表达。
 
 ## 安装
 
-把两个 Skill 目录复制到 Codex skills 目录：
+无需手动下载文件。只需在对话中直接告诉 Agent 安装这个 GitHub 仓库里的 Skill 即可：
 
-```bash
-cp -R die-wei-detector de-die-wei "${CODEX_HOME:-$HOME/.codex}/skills/"
+```text
+请安装此链接中的去爹味 Skill：https://github.com/mamingsuper/qu-die-wei-skill
 ```
 
 ## 使用示例
@@ -25,7 +25,7 @@ cp -R die-wei-detector de-die-wei "${CODEX_HOME:-$HOME/.codex}/skills/"
 使用 de-die-wei：请先检测这段话的爹味问题，再帮我去爹味改写：……
 ```
 
-## 评分昵称
+## 评分区间（昵称）
 
 - `0-9`：清爽可读
 - `10-29`：一丝爹味

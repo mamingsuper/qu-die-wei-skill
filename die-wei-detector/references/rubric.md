@@ -1,71 +1,71 @@
-# 爹味评分 Rubric
+# 爹味评分标准 (Rubric)
 
-Score the text, not the person. The total score is 100 points across five dimensions.
+只评价文本表达，不对说话者做人身定性。总分为 100 分，分为五个维度。
 
-## Core Definition
+## 核心定义
 
-"爹味" is a communication smell: the speaker assumes a superior position, gives unsolicited instruction, crosses boundaries, dismisses the other person's experience, or uses "for your own good" as a cover for control and self-validation.
+“爹味”是一种沟通上的不良气息：说话者预设了高高在上的立场，给出未经请求的指导，跨越了人际边界，否定对方的经验，或者用“为你好”来掩饰控制欲和自我认同的需求。
 
-Related public explanations commonly describe it as condescending preaching, mansplaining-like explanation, excessive advice-giving, boundary crossing, and control disguised as care.
+相关的流行解释通常将其描述为：居高临下的说教、好为人师的解释、过度的建议、缺乏边界感，以及伪装成关心的控制。
 
-## Scoring Dimensions
+## 评分维度
 
-### 1. 姿态维度：0-25
+### 1. 姿态维度：0-25 分
 
-Measures whether the speaker places themselves above the listener.
+衡量说话者是否将自己置于高于倾听者的位置。
 
-- `0-5`: Equal, specific, and humble.
-- `6-12`: Some mild superiority, but still leaves room for the other person.
-- `13-19`: Frequent "I know better" posture; uses experience, age, seniority, or identity to suppress disagreement.
-- `20-25`: Strong condescension; treats the other person as naive, wrong, childish, or needing discipline.
+- `0-5`: 平等、具体且谦逊。
+- `6-12`: 略带优越感，但仍给对方留有余地。
+- `13-19`: 经常出现“我比你懂”的姿态；利用经验、年龄、资历或身份来压制不同意见。
+- `20-25`: 强烈的居高临下感；把对方当成幼稚、错误、需要被管教的下位者。
 
-Common signals: "我跟你说", "你还年轻", "这你都不懂", "听我的准没错", "我走过的桥比你走过的路还多".
+常见信号：“我跟你说”、“你还年轻”、“这你都不懂”、“听我的准没错”、“我走过的桥比你走过的路还多”。
 
-### 2. 边界维度：0-25
+### 2. 边界维度：0-25 分
 
-Measures whether the speaker gives unsolicited advice or interferes outside their lane.
+衡量说话者是否给出了未经请求的建议，或者插手了自己不该管的事务。
 
-- `0-5`: Advice is invited, relevant, and scoped.
-- `6-12`: Some assumptions about the other person's choices.
-- `13-19`: Uninvited evaluation of work methods, life choices, relationships, consumption, appearance, routines, or beliefs.
-- `20-25`: Strong control; pushes decisions, moralizes private choices, or demands compliance.
+- `0-5`: 建议是被主动询问的，且在合适的范围内。
+- `6-12`: 对对方的选择有一些主观预设。
+- `13-19`: 未经邀请就对对方的工作方式、生活选择、人际关系、消费观、外貌、作息或信仰进行评价。
+- `20-25`: 强烈的控制欲；强行替对方做决定，对私人选择进行道德说教，或要求对方必须服从。
 
-Common signals: unsolicited "你应该", "你必须", "我这是为你好", "别这么想", "你这样不行".
+常见信号：未经邀请的“你应该”、“你必须”、“我这是为你好”、“别这么想”、“你这样不行”。
 
-### 3. 共情维度：0-20
+### 3. 共情维度：0-20 分
 
-Measures whether the speaker recognizes the other person's feelings and situation.
+衡量说话者是否理解并认可对方的感受和处境。
 
-- `0-4`: Listens, validates, and asks what support is needed.
-- `5-9`: Gives advice with limited acknowledgment.
-- `10-15`: Quickly negates feelings, changes the topic to personal experience, or uses "但是" to overwrite the other person.
-- `16-20`: Dismisses pain, fatigue, confusion, or fear as weakness, immaturity, laziness, or lack of gratitude.
+- `0-4`: 倾听、认可对方的情绪，并询问需要什么支持。
+- `5-9`: 给出建议，但较少关注对方的情绪。
+- `10-15`: 迅速否定对方的感受，把话题转移到自己的经验上，或者用“但是”来否定对方的话。
+- `16-20`: 将对方的痛苦、疲惫、困惑或恐惧贬低为软弱、不成熟、懒惰或不懂感恩。
 
-Common signals: "这有什么好烦的", "我当年比你苦多了", "别矫情", "你就是想太多".
+常见信号：“这有什么好烦的”、“我当年比你苦多了”、“别矫情”、“你就是想太多”。
 
-### 4. 目的维度：0-15
+### 4. 目的维度：0-15 分
 
-Measures whether the apparent purpose is help or self-validation/control.
+衡量表面上的帮助是否实际上是为了自我证明或控制。
 
-- `0-3`: Solves the user's stated need or offers optional support.
-- `4-7`: Helpful intent, but mixed with performance or self-display.
-- `8-12`: Uses advice to prove authority, moral correctness, or experience.
-- `13-15`: Mainly protects the speaker's ego, values, status, or control.
+- `0-3`: 真正解决对方提出的需求，或提供可选的支持。
+- `4-7`: 有帮助的意图，但夹杂着表演或自我展示。
+- `8-12`: 利用建议来证明自己的权威、道德正确性或丰富经验。
+- `13-15`: 主要是为了维护说话者自己的自尊、价值观、地位或控制感。
 
-Common signals: advice becomes a lecture, the speaker centers their own story, or the listener's actual need disappears.
+常见信号：建议变成了长篇大论的说教，说话者以自己的故事为中心，而倾听者真正的需求却被忽略了。
 
-### 5. 结果维度：0-15
+### 5. 结果维度：0-15 分
 
-Measures likely impact on the listener.
+衡量可能对倾听者造成的影响。
 
-- `0-3`: Listener likely feels respected and free to choose.
-- `4-7`: Some pressure, but still usable.
-- `8-12`: Listener likely feels judged, interrupted, corrected, or talked down to.
-- `13-15`: Listener likely feels controlled, shamed, silenced, or emotionally exhausted.
+- `0-3`: 倾听者很可能感到被尊重且有选择的自由。
+- `4-7`: 有一定压力，但建议仍然可用。
+- `8-12`: 倾听者很可能感到被评判、被打断、被纠正或被俯视。
+- `13-15`: 倾听者很可能感到被控制、被羞辱、被压制或情绪耗竭。
 
-Score likely impact from the text and context. If context is missing, state the uncertainty.
+根据文本和语境评估可能产生的影响。如果缺少语境，请说明评估的不确定性。
 
-## Nickname Bands
+## 评分区间昵称
 
 - `0-9`: 清爽可读
 - `10-29`: 一丝爹味
@@ -74,29 +74,29 @@ Score likely impact from the text and context. If context is missing, state the 
 - `70-84`: 爹爹不休
 - `85-100`: 爹味包浆
 
-## Evidence Standards
+## 证据采纳标准
 
-- Use short quotes only.
-- Explain point additions with observable language.
-- Separate "strong evidence" from "possible evidence" when context is limited.
-- If a text includes necessary authority, such as legal, medical, safety, or managerial instruction, score the tone and boundary handling rather than penalizing authority itself.
+- 仅使用简短的引用。
+- 用观察到的具体用词来解释加分原因。
+- 当语境有限时，区分“强证据”和“可能的证据”。
+- 如果文本包含必要的权威指令（如法律、医疗、安全或管理指令），请针对其语气和边界处理进行评分，而不是因为其具有权威性本身而扣分/加分。
 
-## Calibration Examples
+## 评分基准示例
 
-High score example:
+高分示例：
 
 > 你还年轻不懂，别整天想这些没用的。听我的，好好吃苦，以后你会感谢我。
 
-Likely score: 80-90. Strong superiority, unsolicited life instruction, low empathy, and pressure.
+预估得分：80-90。强烈的优越感，未经请求的人生指导，缺乏共情，且充满压迫感。
 
-Mid score example:
+中分示例：
 
 > 我建议你别这么做，我以前也遇到过，照我的方法会更稳。
 
-Likely score: 35-55. It may be useful advice, but it assumes superiority and skips asking whether advice is wanted.
+预估得分：35-55。这可能是有用的建议，但它预设了自己更懂，并且跳过了询问对方是否需要建议的环节。
 
-Low score example:
+低分示例：
 
 > 听起来确实挺累的。你想先吐槽一下，还是想一起想几个办法？我之前试过一个方法，也许能参考。
 
-Likely score: 0-15. It validates emotion, asks for consent, shares instead of commands, and leaves agency.
+预估得分：0-15。它认可了情绪，征求了同意，以分享代替命令，并把选择权留给了对方。

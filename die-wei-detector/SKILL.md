@@ -1,28 +1,28 @@
 ---
 name: die-wei-detector
-description: Detect and score "爹味" in Chinese text, comments, advice, workplace messages, social posts, drafts, or conversation snippets. Use when the user asks to judge whether wording feels patronizing, preachy, boundary-crossing, mansplaining-like, controlling, lacking empathy, or wants a 0-100 爹味 score with dimension scores, evidence, and rewrite directions.
+description: 检测并评估中文文本、评论、建议、职场信息、社交帖子、草稿或对话片段中的“爹味”。当用户希望判断某些措辞是否给人一种居高临下、说教、越界、好为人师、控制欲强或缺乏共情的感觉，或者想要一个包含五个维度的0-100分“爹味”评分、证据和改写方向时，使用此技能。
 ---
 
 # 爹味检测
 
-## Overview
+## 概览
 
-Use this skill to score the "爹味" level of Chinese communication. Judge the expression, not the person. Treat "爹味" as a communication pattern: condescending posture, unsolicited instruction, weak boundaries, low empathy, hidden superiority, or control disguised as care.
+使用此技能评估中文沟通中的“爹味”程度。只评价表达方式，不对人做评价。将“爹味”视为一种沟通模式：居高临下的姿态、好为人师的指导、模糊的边界感、缺乏共情、隐藏的优越感，或者以关心为名的控制欲。
 
-Load `references/rubric.md` before scoring unless the user only asks for a quick impression.
+除非用户只要求一个快速的直觉判断，否则在评分前请先加载 `references/rubric.md`（评分标准）。
 
-## Workflow
+## 工作流程
 
-1. Identify the text, speaker role, audience, and context. If context is missing, score only the visible wording and say that context may change the score.
-2. Scan for five dimensions: posture, boundary, empathy, purpose, and result.
-3. Assign a 0-100 total score using the weighted rubric.
-4. Quote only short evidence snippets. Do not over-quote long user text.
-5. Explain why points were added. Be specific about wording, assumptions, and likely reader impact.
-6. Give rewrite directions without rewriting the whole text unless the user asks.
+1. 明确文本、说话者角色、受众和语境。如果缺少语境，仅基于可见的措辞进行评分，并说明语境可能会改变得分。
+2. 从五个维度进行扫描：姿态、边界、共情、目的和结果。
+3. 使用加权的评分标准给出一个 0-100 的总分。
+4. 仅引用简短的证据片段。不要过度引用用户的大段文本。
+5. 解释加分原因。具体指出哪些措辞、预设以及可能给读者带来的影响。
+6. 给出改写方向，除非用户明确要求，否则不要直接重写整段文本。
 
-## Required Output
+## 必须输出的格式
 
-Use this structure:
+请严格使用以下结构：
 
 ```markdown
 ## 爹味总分
@@ -52,7 +52,7 @@ Use this structure:
 ...
 ```
 
-## Nickname Bands
+## 评分昵称区间
 
 - `0-9`: 清爽可读
 - `10-29`: 一丝爹味
@@ -61,9 +61,9 @@ Use this structure:
 - `70-84`: 爹爹不休
 - `85-100`: 爹味包浆
 
-## Guardrails
+## 注意事项
 
-- Do not diagnose personality, gender, age, intent, or morality from text alone.
-- Do not treat every suggestion as 爹味. Advice can be low-score when it is invited, humble, contextual, and leaves choice to the other person.
-- Do not reward fake politeness if the substance is still controlling or boundary-crossing.
-- If the user asks for "火力全开", keep the labels sharp but keep the analysis fair.
+- 不要仅凭文本去诊断对方的性格、性别、年龄、意图或道德。
+- 不要把所有的建议都当成是“爹味”。如果建议是被邀请的、谦逊的、符合语境的，并且把选择权留给了对方，得分就可以很低。
+- 如果本质上仍然是控制或越界的，不要因为虚假的礼貌而给它减分。
+- 如果用户要求“火力全开”，可以使用尖锐直接的标签，但分析过程必须保持客观公正。
