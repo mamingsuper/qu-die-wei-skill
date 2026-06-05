@@ -1,0 +1,4 @@
+interface:
+  display_name: "去爹味"
+  short_description: "先检测爹味，再逐点改写成边界清晰、平等共情的表达。"
+  default_prompt: "请先检测下面这段话的爹味问题，再逐点改写成更平等、克制、共情的表达。"

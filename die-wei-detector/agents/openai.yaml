@@ -1,0 +1,4 @@
+interface:
+  display_name: "爹味检测"
+  short_description: "给中文表达做五维爹味评分，并输出依据与改写方向。"
+  default_prompt: "请检测下面这段话的爹味分数，并给出总分、维度分、评分依据和可改写方向。"
