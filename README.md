@@ -2,6 +2,11 @@
 
 两个中文 Agent Skill，用来检测和改写表达里的“爹味”。
 
+先分清用途，小心别用串：
+
+- **只想评分、检测、打分**：用 `die-wei-detector`。
+- **想评分后顺手改写**：用 `de-die-wei`。
+
 ## Skills (技能)
 
 - `die-wei-detector`：按五个维度给中文文本打 `0-100` 爹味分，并输出依据。
@@ -9,21 +14,51 @@
 
 ## 安装
 
-无需手动下载文件。只需在对话中直接告诉 Agent 安装这个 GitHub 仓库里的 Skill 即可：
+这个仓库里有两个 Skill。建议两个一起安装，因为 `de-die-wei` 会复用 `die-wei-detector` 的五维评分框架。
+
+最简单的安装方式：在 Codex 对话中直接说：
 
 ```text
-请安装此链接中的去爹味 Skill：https://github.com/mamingsuper/qu-die-wei-skill
+请安装这个仓库里的两个 Skill：https://github.com/mamingsuper/qu-die-wei-skill
+```
+
+安装完成后，重启 Codex，让新 Skill 生效。
+
+如果你想手动安装，可以把两个目录复制到 Codex skills 目录：
+
+```bash
+cp -R die-wei-detector de-die-wei "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
 ## 使用示例
 
-```text
-使用 die-wei-detector：请检测这段话的爹味分数：……
-```
+### 只评分，不改写
 
 ```text
-使用 de-die-wei：请先检测这段话的爹味问题，再帮我去爹味改写：……
+使用 die-wei-detector：请对下面这段话进行爹味评分。只输出总分、维度分、依据和结论，不要改写。
 ```
+
+适合场景：
+
+- “帮我看看这段话爹味几分”
+- “只做爹味检测，不要优化”
+- “给这两段公开发言分别打分”
+
+### 评分后改写
+
+```text
+使用 de-die-wei：请先检测下面这段话的爹味问题，再帮我去爹味改写。
+```
+
+适合场景：
+
+- “帮我去爹味”
+- “把这段建议改得没那么说教”
+- “保留意思，但去掉居高临下的语气”
+
+### 常见误用
+
+如果你只想评分，不要调用 `de-die-wei`。它的设计目标是“检测 + 改写”，所以会自动输出去爹味版本。只评分请调用 `die-wei-detector`。
 
 ## 评分区间（昵称）
 
